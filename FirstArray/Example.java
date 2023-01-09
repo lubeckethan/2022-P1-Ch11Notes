@@ -6,7 +6,7 @@ public class Example{
         numberOfChristmasGifts = new int [25];
 
         for (int k= 0;  k< numberOfChristmasGifts.length; k++) {
-            numberOfChristmasGifts[k] = 6;
+            numberOfChristmasGifts[k] = 26;
 
             System.out.println( numberOfChristmasGifts[k]);
         }

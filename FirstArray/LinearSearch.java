@@ -16,14 +16,15 @@ public class LinearSearch {
 
     }
 
-    public static int linearSearch(int lookup) {
-        for (int w = 0; w < numList.length; w++){
-
+    public static int linearSearch(int lookup){
+        for (int k = 0; k < numList.length; k++) {
+            if (numList[k] == lookup) {
+               // Return the position of the data's index
+                return k;
+            }
         }
-
-
+        // Return invalid data if not found
+        return -1;
     }
-
-
 
 }
